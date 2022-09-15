@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class ZipCode extends Model
 {
     use HasFactory;
+    public function state() {
+        return $this->belongsTo('App\State');
+    }
+
 }
