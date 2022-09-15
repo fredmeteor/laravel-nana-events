@@ -8,4 +8,16 @@ use Cviebrock\EloquentSluggable\Sluggable;
 class Location extends Model
 {
     use HasFactory,Sluggable;
+
+
+
+
+
+
+
+
+
+
+
+    
 }
