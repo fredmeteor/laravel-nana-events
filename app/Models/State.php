@@ -15,11 +15,11 @@ class State extends Model
      */
 
     public function events() {
-        return $this->hasMany('App\Event');
+        return $this->hasMany('Event::class');
     }
 
     public function users() {
-        return $this->hasMany('App\User');
+        return $this->hasMany('User::class');
     }
 
     public function zips() {

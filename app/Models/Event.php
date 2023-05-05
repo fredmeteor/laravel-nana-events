@@ -71,6 +71,8 @@ class Event extends Model
             ->whereNull('tickets.deleted_at');
     }
 
+    
+
     /**
      * To what category does this event belong?
      *

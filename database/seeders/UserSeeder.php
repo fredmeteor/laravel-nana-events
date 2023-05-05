@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
 
         $faker = Faker::create();
 
-        for($x=0; $x<100; $x++) {
+        for($x=0; $x<10000; $x++) {
 
             $zipCode = ZipCode::whereNotNull('state_id')->inRandomOrder()->first();
 
